@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "memory-friendly-database-streaming"
+version = "0.1.0"
+description = ""
+authors = ["Jose Hidalgo <joseangel1196@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "memory_friendly_database_streaming"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2 = "^2.9.5"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
