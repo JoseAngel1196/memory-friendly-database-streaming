@@ -6,7 +6,6 @@ import time
 import csv
 from typing import Tuple
 import psycopg2
-from psycopg2.extensions import cursor
 
 TABLE_NAME = "reviews"
 DATABASE_NAME = "imdb_review_kaggle"
