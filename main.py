@@ -1,6 +1,3 @@
-"""
-TODO: ....
-"""
 import argparse
 import time
 import csv
